@@ -44,7 +44,8 @@ h1 {
   font-size: 3rem;
   padding: 1rem;
   padding-left: 2rem;
-  color: #041536;
+  color: #b2c7ee;
+  text-shadow: #041536 4px 5px 6px;
 }
 
 main {
@@ -58,7 +59,7 @@ main {
 
 /*******************************/
 .mainbox1 {
-  background-image: url(/img/galleri1.webp);
+  background-image: url(./img/galleri1.webp);
   background-size: contain;
   background-repeat: no-repeat;
   height: 700px;
@@ -69,7 +70,7 @@ main {
 }
 
 .mainbox2 {
-  background-image: url(/img/galleri2.webp);
+  background-image: url(./img/galleri2.webp);
   background-size: contain;
   background-repeat: no-repeat;
   height: 700px;
@@ -77,7 +78,7 @@ main {
 }
 
 .mainbox3 {
-  background-image: url(/img/galleri3.webp);
+  background-image: url(./img/galleri3.webp);
   background-size: contain;
   background-repeat: no-repeat;
   height: 700px;
@@ -85,7 +86,7 @@ main {
 }
 
 .mainbox4 {
-  background-image: url(/img/galleri4.webp);
+  background-image: url(./img/galleri4.webp);
   background-size: contain;
   background-repeat: no-repeat;
   height: 700px;
