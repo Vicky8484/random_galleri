@@ -1,0 +1,118 @@
+@media screen and (max-width: 600px) {
+  h1 {
+    font-family: "Braah One", sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    padding: 1rem;
+    padding-left: 2rem;
+    color: #041536;
+  }
+
+  /****************************************/
+
+  .gb1 {
+    background-color: #b2c7ee;
+    color: #041536;
+    height: 500px;
+  }
+
+  .gb2 {
+    background-color: #5987dc;
+    color: #041536;
+    height: 420px;
+  }
+
+  .gb3 {
+    background-color: #76a3f8;
+    color: #041536;
+    height: 400px;
+  }
+
+  .gb4 {
+    margin-top: 1rem;
+    background-color: #7688de;
+    color: #041536;
+    height: 550px;
+  }
+  /****************************************/
+
+  .gb5 {
+    background-color: #b2eeb7;
+    color: #043615;
+    height: 400px;
+  }
+
+  .gb6 {
+    background-color: #8bde76;
+    color: #043615;
+    height: 420px;
+  }
+
+  .gb7 {
+    background-color: #76f8a3;
+    color: #043615;
+    height: 450px;
+  }
+
+  .gb8 {
+    background-color: #59dc8c;
+    color: #043615;
+    height: 420px;
+  }
+
+  /****************************************/
+
+  .gb9 {
+    background-color: #d8dc59;
+    color: #444606;
+    height: 460px;
+  }
+
+  .gb10 {
+    background-color: #eeeeb2;
+    color: #444606;
+    height: 450px;
+  }
+
+  .gb11 {
+    background-color: #decf76;
+    color: #2e2f03;
+    height: 600px;
+  }
+
+  .gb12 {
+    background-color: #eff876;
+    color: #444606;
+    height: 470px;
+  }
+
+  /****************************************/
+
+  .gb13 {
+    background-color: #dc6059;
+    color: #350303;
+    height: 500px;
+  }
+
+  .gb14 {
+    background-color: #eebbb2;
+    color: #450b0b;
+    height: 550px;
+  }
+
+  .gb15 {
+    background-color: #de7676;
+    color: #350303;
+    height: 380px;
+  }
+
+  .gb16 {
+    background-color: #f87676;
+    color: #350303;
+    height: 470px;
+  }
+
+  .hide {
+    display: block;
+  }
+}

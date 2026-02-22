@@ -1,0 +1,303 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 280px;
+  height: auto;
+  display: block;
+}
+
+html {
+  scrollbar-color: #7688de #e1efff;
+  animation: scrollbar 20s infinite;
+}
+
+@keyframes scrollbar {
+  25% {
+    scrollbar-color: #7688de #deeeff;
+  }
+  50% {
+    scrollbar-color: #59dc8c #e3ffe6;
+  }
+  75% {
+    scrollbar-color: #decf76 #fffbe3;
+  }
+  100% {
+    scrollbar-color: #dc6059 #ffe5e0;
+  }
+}
+
+body {
+  overflow-y: hidden;
+  font-family: "Delicious Handrawn", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Braah One", sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  padding: 1rem;
+  padding-left: 2rem;
+  color: #041536;
+}
+
+main {
+  overflow-x: scroll;
+  width: 4000px;
+}
+
+#mainbox-wrapper {
+  display: flex;
+}
+
+/*******************************/
+.mainbox1 {
+  background-image: url(/img/galleri1.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 700px;
+}
+
+.mainbox1-flex {
+  display: flex;
+}
+
+.mainbox2 {
+  background-image: url(/img/galleri2.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 700px;
+  display: flex;
+}
+
+.mainbox3 {
+  background-image: url(/img/galleri3.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 700px;
+  display: flex;
+}
+
+.mainbox4 {
+  background-image: url(/img/galleri4.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 700px;
+  display: flex;
+}
+
+/***********************/
+.galleribox1 {
+  padding: 1rem;
+  margin: 2rem;
+  height: 250px;
+  transition: 0.2s;
+}
+
+.galleribox2 {
+  padding: 1rem;
+  margin: 2rem;
+  margin-top: 6rem;
+  height: 300px;
+  transition: 0.2s;
+}
+
+.galleribox3 {
+  padding: 1rem;
+  margin: 2rem;
+  margin-top: 3rem;
+  margin-right: 1rem;
+  height: 250px;
+  transition: 0.2s;
+}
+
+.galleribox4 {
+  padding: 1rem;
+  margin: 2rem;
+  margin-top: 10rem;
+  margin-right: 0;
+  height: 300px;
+  transition: 0.2s;
+}
+
+/****************************************/
+
+.gb1 {
+  background-color: #b2c7ee;
+  color: #041536;
+}
+
+.gb2 {
+  background-color: #5987dc;
+  color: #041536;
+}
+
+.gb3 {
+  background-color: #76a3f8;
+  color: #041536;
+}
+
+.gb4 {
+  margin-top: 1rem;
+  background-color: #7688de;
+  color: #041536;
+}
+
+.gb1:hover {
+  height: 500px;
+}
+
+.gb2:hover {
+  height: 420px;
+}
+
+.gb3:hover {
+  height: 400px;
+}
+
+.gb4:hover {
+  height: 550px;
+}
+
+/****************************************/
+
+.gb5 {
+  background-color: #b2eeb7;
+  color: #043615;
+}
+
+.gb6 {
+  background-color: #8bde76;
+  color: #043615;
+}
+
+.gb7 {
+  background-color: #76f8a3;
+  color: #043615;
+}
+
+.gb8 {
+  background-color: #59dc8c;
+  color: #043615;
+}
+
+.gb5:hover {
+  height: 400px;
+}
+
+.gb6:hover {
+  height: 420px;
+}
+
+.gb7:hover {
+  height: 450px;
+}
+
+.gb8:hover {
+  height: 420px;
+}
+/****************************************/
+
+.gb9 {
+  background-color: #d8dc59;
+  color: #444606;
+}
+
+.gb10 {
+  background-color: #eeeeb2;
+  color: #444606;
+}
+
+.gb11 {
+  background-color: #decf76;
+  color: #2e2f03;
+}
+
+.gb12 {
+  background-color: #eff876;
+  color: #444606;
+}
+
+.gb9:hover {
+  height: 460px;
+}
+
+.gb10:hover {
+  height: 450px;
+}
+
+.gb11:hover {
+  height: 600px;
+}
+
+.gb12:hover {
+  height: 470px;
+}
+
+/****************************************/
+
+.gb13 {
+  background-color: #dc6059;
+  color: #350303;
+}
+
+.gb14 {
+  background-color: #eebbb2;
+  color: #450b0b;
+}
+
+.gb15 {
+  background-color: #de7676;
+  color: #350303;
+}
+
+.gb16 {
+  background-color: #f87676;
+  color: #350303;
+}
+
+.gb13:hover {
+  height: 500px;
+}
+
+.gb14:hover {
+  height: 550px;
+}
+
+.gb15:hover {
+  height: 380px;
+}
+
+.gb16:hover {
+  height: 470px;
+}
+
+/****************************************/
+
+.hide {
+  display: none;
+}
+
+.galleribox1:hover .hide {
+  display: block;
+}
+
+.galleribox2:hover .hide {
+  display: block;
+}
+
+.galleribox3:hover .hide {
+  display: block;
+}
+
+.galleribox4:hover .hide {
+  display: block;
+}
+
+/******************************/
